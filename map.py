@@ -23,3 +23,6 @@ class Map:
         while(True):
             pass
         pass
+
+def hello():
+    print('hello')
