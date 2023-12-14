@@ -20,4 +20,6 @@ class Map:
             print(line)
 
     def draw_map(self):
+        while(True):
+            pass
         pass
