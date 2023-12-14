@@ -24,8 +24,7 @@ textRect.center = (WIDTH /2, 40)
 
 # Classes
 
-class Bullet():
-
+class Bullet:
     def __init__(self):
         self.bullet_speed = 10
         self.bullet_color = (100, 100, 100)

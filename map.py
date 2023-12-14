@@ -1,5 +1,4 @@
-class Map():
-
+class Map:
     def __init__(self):
 
         # Dimensions
