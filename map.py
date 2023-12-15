@@ -16,13 +16,15 @@ class Map:
             for j in range(height):
                 self.map[i].append(0)
 
+
+
+    def draw_map(self):
         for line in self.map:
             print(line)
 
-    def draw_map(self):
-        while(True):
-            pass
-        pass
 
-def hello():
-    print('hello')
+
+
+map = Map()
+map.initialize_map(100,100)
+map.draw_map()
