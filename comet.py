@@ -5,6 +5,8 @@ import pygame
 import time
 from random import randint
 
+from map import Map
+
 # Constants
 WIDTH = 1300
 HEIGHT = 700
@@ -348,7 +350,6 @@ def check_events(player, bullets, temp):
 
 
 # Objects innitialization
-
 player = Player(490, 490)
 player.draw(screen)
 player.draw_hand(screen)
