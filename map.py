@@ -1,5 +1,5 @@
 
-#map class
+#map class   222
 class Map:
     def __init__(self):
 
